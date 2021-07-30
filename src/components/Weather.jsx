@@ -4,7 +4,6 @@ class Weather extends Component {
   state = {
     forecast: [],
     temperature: [],
-    value: "shit",
   };
 
   componentDidMount = async () => {
@@ -13,11 +12,11 @@ class Weather extends Component {
     );
     const data = await api_call.json();
     this.setState({ forecast: data.forecastTimestamps });
+    console.log(this.state.forecast);
   };
 
   handleChange = ({ currentTarget: input }) => {
     this.setState({ value: input.value });
-    console.log(input.value);
     const forecast = [...this.state.forecast];
 
     forecast.map((f) => {
@@ -46,7 +45,7 @@ class Weather extends Component {
             className="form-control"
             onChange={this.handleChange}
           >
-            <option>{this.state.time}</option>
+            <option value=""> -- Pasirinkite laiką -- </option>
             {this.state.forecast.map((option) => (
               <option
                 key={option.forecastTimeUtc}
