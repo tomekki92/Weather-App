@@ -1,5 +1,5 @@
 .temp {
-  font-size: 10rem;
+  font-size: 8rem;
   margin-bottom: 6rem;
   color: black;
 }
@@ -11,17 +11,16 @@
 
 .container {
   display: flex;
-  width: 500px;
+  width: 100%;
   justify-content: center;
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  border: 1px solid black;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  background: url("../assets/bright.jpg");
+  background: url("../assets/bright.jpg") no-repeat center;
 }
 
 .location {
