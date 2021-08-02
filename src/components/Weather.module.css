@@ -1,0 +1,30 @@
+.temp {
+  font-size: 10rem;
+  margin-bottom: 6rem;
+  color: black;
+}
+
+.upper {
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+
+.container {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: url("../assets/bright.jpg");
+}
+
+.location {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}

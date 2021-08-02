@@ -1,4 +1,3 @@
-import "./App.css";
 import Weather from "./components/Weather";
 import React from "react";
 
