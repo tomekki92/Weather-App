@@ -11,7 +11,7 @@ class Weather extends Component {
 
   componentDidMount = async () => {
     const apiCall = await fetch(
-      "https://api.meteo.lt/v1/places/vilnius/forecasts/long-term"
+      "https://cors-anywhere.herokuapp.com/https://api.meteo.lt/v1/places/vilnius/forecasts/long-term"
     );
     const data = await apiCall.json();
     this.setState({
