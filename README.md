@@ -1,3 +1,9 @@
+# A fun project I created using Meteo.lt API, ReactJS and Bootstrap. (Work in progress).
+
+Deployed version is on https://meteolt-app.netlify.app/ 
+
+Before launching, request temporary access to demo server (CORS Anywhere) here: https://cors-anywhere.herokuapp.com/corsdemo
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
